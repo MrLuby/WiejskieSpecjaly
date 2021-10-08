@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiejskie Specjały</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0f697877f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+    <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand px-4" href="#"><i class="fas fa-egg orange-color"></i>Wiejskie Specjały</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Start</a>
+                    <a class="nav-link" href="#egg">Oferta</a>
+                    <a class="nav-link" href="#price">Cennik</a>
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="scrollfix">
+        <div class="hero-shadow"></div>
+        <div
+            class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
+            <p class="display-1">wiejskie specjały</p>
+            <p class="header-text mb-5">świeże jaja z wolnego wybiegu od szczęśliwych kur</p>
+            <a href="#egg" class="btn btn-outline-light">zobacz ofertę</a>
+        </div>
+    </header>
+    <section id="egg" class="scrollfix">
+        <div class="container py-5 about-boxes">
+            <div class="row text-center">
+                <div class="col-12 col-md-6 col-lg-3 text-dark">
+                    <div class="about-box m-3 p-4 p-lg-5 border">
+                        <h3>jaja</h3>
+                        <p class="about-icon"><i class="fas fa-check"></i></p>
+                        <p>ekologiczne jaja z wolnego wybiegu, dostępne brązowe oraz białe</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-dark">
+                    <div class="about-box m-3 p-4 p-lg-5 border bg-warning">
+                        <h3>miód</h3>
+                        <p class="about-icon"><i class="fas fa-check"></i></p>
+                        <p>paleta miodów od naszych polskich pszczół, tylko sprawdzone pasieki</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-dark">
+                    <div class="about-box m-3 p-4 p-lg-5 border bg-success text-light">
+                        <h3>zioła</h3>
+                        <p class="about-icon"><i class="fas fa-check"></i></p>
+                        <p>szeroki wybór naturalnych ziół wspierających zdrowie</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-dark">
+                    <div class="about-box m-3 p-4 p-lg-5 border bg-danger text-light">
+                        <h3>mięso</h3>
+                        <p class="about-icon"><i class="fas fa-check"></i></p>
+                        <p>świeże mięso w konkurencyjnych cenach, dostępne na zamówienie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container about-info py-5 text-center">
+            <div class="row">
+                <div class="col">
+                    <p class="display-3 orange-color">Czym się wyróżniamy?</p>
+                    <hr class="w-50 mx-auto mt-4 mb-5">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left text-dark text-decoration-none"
+                                        type="button" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        <p class="akordeon">Dostawa wprost pod Twoje drzwi, zawsze na czas!</p>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Zapewniamy regularne dostawy naszych produktów na umówioną godzinę prosto do Ciebie!
+                                    Skontaktuj się z nami telefonicznie, przez facebooka lub wypełnij formularz na
+                                    naszej stronie.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed text-dark text-decoration-none"
+                                        type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        <p class="akordeon">Najwyższa jakość usług w atrakcyjnych cenach!</p>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Gwarantujemy świeże produkty wysokiej jakości, cenowo bijemy konkurencję na głowę ;)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed text-dark text-decoration-none"
+                                        type="button" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        <p class="akordeon">Konkursy i nagrody!</p>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Nasi stali Klienci mogą brać udział w organizowanych przez nas konkursach
+                                    okolicznościowych, w których są do wygrania wspaniałe nagrody i upominki, serdecznie
+                                    zapraszamy!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="price" class="scrollfix">
+        <div class="container text-center">
+            <p class="display-3 orange-color">Ceny produktów.</p>
+            <hr class="w-50 mx-auto mt-4 mb-5">
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="/img/eggwhite.jpg" class="card-img-top" alt="jajobiale">
+                        <div class="card-body">
+                            <h3 class="card-title">Jaja białe</h3>
+                            <p class="card-text">1200kr / 30szt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/img/eggbrown.jpg" class="card-img-top" alt="jajobraz">
+                        <div class="card-body">
+                            <h3 class="card-title">Jaja brązowe</h3>
+                            <p class="card-text">1400kr / 30szt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/img/honey.jpg" class="card-img-top" alt="miodpszczeli">
+                        <div class="card-body">
+                            <h3 class="card-title">Miód pszczeli</h3>
+                            <p class="card-text">3000kr / słoik</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/img/herbs.jpg" class="card-img-top" alt="ziolaherbatki">
+                        <div class="card-body">
+                            <h3 class="card-title">Zioła i herbatki</h3>
+                            <p class="card-text">1000kr / sztuka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-dark text-light scrollfix">
+        <div class="container text-center py-5">
+            <h3 class="display-3 mb-lg-5">Złóż zamówienie już dziś!</h3>
+            <div class="row">
+
+                <div class="my-5 m-lg-0 col-lg-3 contact-info order-lg-1">
+                    <p>Wiejskie Specjały</p>
+                    <p>Reykjavik</p>
+                    <p>Islandia</p>
+                    <hr class="w-50 w-lg-75 mx-auto bg-light">
+                    <p><i class="fas fa-phone"></i>+3547777777</p>
+                </div>
+
+
+                <div class="col-lg-9">
+                    <form action="https://formsubmit.io/send/lukasz.lubon@gmail.com" method="POST">
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepand">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="imię i nazwisko" required>
+                        </div>
+
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepand">
+                                <span class="input-group-text">
+                                    <i class="fas fa-home"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="adres dostawy" required>
+                        </div>
+
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepand">
+                                <span class="input-group-text">
+                                    <i class="fas fa-question"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="co będzie potrzebne?" required>
+                        </div>
+
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepand">
+                                <span class="input-group-text">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </span>
+                            </div>
+                            <input type="tel" class="form-control" placeholder="numer telefonu" required>
+                        </div>
+
+                        <input type="submit" value='wyślij' class="btn btn-light px-4 py-2 submit-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-light">
+        <p>&copy Wiejskie Specjały 2021 by MrLuby</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).click(function (event) {
+            var clickover = $(event.target);
+            var _opened = $(".navbar-collapse").hasClass("show");
+            if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+                $(".navbar-toggler").click();
+            }
+        });
+    </script>
+
+</body>
+
+</html>
