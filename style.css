@@ -56,7 +56,7 @@ nav .fa-bars {
 header {
 	position: relative;
 	height: 60rem;
-	background-image: url(img/jaja.png);
+	background-image: url(../img/jaja.png);
 	background-position: center;
 	background-size: cover;
 	z-index: 0;
